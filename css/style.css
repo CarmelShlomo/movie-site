@@ -6,9 +6,18 @@ body {
     line-height: 1.6;
 }
 h1 {
-    color: #5e008a;
+    color: #633183;
     font-size: 36px;
 }
+a:hover {
+color: #9e81b8;
+}
+h1 , h2{
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* === כותרת עליונה== */
 header {
     background-color: #000000;
@@ -25,9 +34,12 @@ nav a {
 nav {
     color: #555555;
 }
+nav a.active {
+    color: #633183;
+}
 /* ===== כרטיסי הסרטים ===== */
 .movie h2 {
-    color: #5e008a;
+    color: #633183;
     font-size: 24px;
 }
 .movie span {
@@ -35,7 +47,7 @@ nav {
     font-weight: bold;
 }
 .movie a {
-    color: #5e008a;
+    color: #633183;
 }
 .movie img {
     width: 200px;
@@ -45,7 +57,7 @@ nav {
     width: 200px;
 }
 .about h2 span {
-    color: #5e008a;
+    color: #633183;
 }
 /* ===== כותרת תחתונה ===== */
 footer {
@@ -59,6 +71,6 @@ footer a {
 }
 
 footer span {
-    color: #5e008a;
+    color: #633183;
     font-weight: bold;
 }
